@@ -1,0 +1,68 @@
+/* 
+	RESET [Eric Meyer's Reset CSS v2.0]
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*
+	PRIMARY STYLES
+*/
+
+body{
+	background:#fff;
+	font-family: "Segoe UI", "Open Sans", Arial, sans-serif;
+	font-weight:400;
+}
+
+#wrapper{
+	position:absolute;
+	left:120px;
+	top:0;
+	bottom:0;
+	right:0;
+}
+
+h1{
+	margin:20px 0 10px;
+	font-size:42pt;
+	font-weight:bold;
+	color:#000;
+	font-weight:300; 	/* Light/Condensed */
+	font-family: "Segoe UI Light", "Open Sans", Arial, sans-serif;
+	display: inline-block;
+
+}
+
+h2{
+	font-size:20pt;
+	color:rgba(0, 0, 0, 0.6);
+	font-weight:300; 	/* Light/Condensed */
+	font-family: "Segoe UI Light", "Open Sans", Arial, sans-serif;
+	display: inline-block;
+}
+
+#content{
+	padding:30px 0;
+	width:1100px;
+	height:450px;
+	text-align:center;
+}
+
+#mainCanvas{
+	background:#666;
+}
+
+p{
+	font-size:10pt;
+	color:#666;
+	margin:20px 0;
+}
+
+a:link, a:visited
+{
+	color:rgba(0, 130, 135, 1.0);
+	text-decoration:none;
+}
+
+a:hover{
+	color:rgba(50, 154, 163, 1.0)
+}
