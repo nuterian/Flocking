@@ -1,4 +1,4 @@
-var canvasWidth = 1100;
+var canvasWidth = 960;
 var canvasHeight = 450;
 
 paper.install(window);
